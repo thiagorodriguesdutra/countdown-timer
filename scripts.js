@@ -7,7 +7,7 @@ const secondsElement = document.querySelector('.seconds')
 function countdown() {
     const currentTime = new Date()
     // partyDate defini o dia e a hora da festa
-    const partyDate = new Date("Wed Oct 26 2022 00:00:00 GMT-0300")
+    const partyDate = new Date("Wed Oct 26 2023 00:00:00 GMT-0300")
     
     const diff = partyDate - currentTime
     const days = daysElement.innerText = Math.floor(diff / (86400 * 1000))
