@@ -20,7 +20,6 @@ body {
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
-    border: 1px solid red;
 
     display: flex;
     flex-direction: column;
